@@ -2,15 +2,15 @@
 
 sudo apt update && sudo apt upgrade -y
 
-sudo apt install -y git
+sudo apt install git -y
 
-sudo apt install curl
+sudo apt install curl -y
 
 # curl -L https://www.npmjs.com/install.sh | bash
 # source ~/.bashrc
 # nvm install node
 
-sudo apt install npm
+sudo apt install npm -y
 source ~/.bashrc
 
 npm i -g pm2
